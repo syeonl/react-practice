@@ -5,7 +5,7 @@ const FruitTea = () => {
     <>
       <div className="img">
         <img
-          src="../images/brand_main_recipe_img5.jpg"
+          src="/react-practice/images/brand_main_recipe_img5.jpg"
           alt="오리지널 티 이미지"
         />
       </div>
@@ -21,7 +21,7 @@ const FruitTea = () => {
           href="https://www.gong-cha.co.kr/brand/menu/product.php?c=001003"
         >
           메뉴 보러가기{' '}
-          <img src="../images/btn_arr_red.png" alt="메뉴보러가기" />
+          <img src="/react-practice/images/btn_arr_red.png" alt="메뉴보러가기" />
         </a>
       </div>
     </>

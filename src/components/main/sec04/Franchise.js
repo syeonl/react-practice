@@ -26,103 +26,103 @@ const Franchise = () => {
           </span>
         </a>
       </div>
-      <div class="main-franchise-bg">
-        <div class="main-franchise-dot-wrap">
-          <span class="main-franchise-dot main-franchise-dot-1">
+      <div className="main-franchise-bg">
+        <div className="main-franchise-dot-wrap">
+          <span className="main-franchise-dot main-franchise-dot-1">
             <BsDot />
           </span>
-          <span class="main-franchise-dot main-franchise-dot-2">
+          <span className="main-franchise-dot main-franchise-dot-2">
             <BsDot className="i" />
           </span>
-          <span class="main-franchise-dot main-franchise-dot-3">
+          <span className="main-franchise-dot main-franchise-dot-3">
             <BsDot className="i" />
           </span>
-          <span class="main-franchise-dot main-franchise-dot-4">
+          <span className="main-franchise-dot main-franchise-dot-4">
             <BsDot className="i" />
           </span>
-          <span class="main-franchise-dot main-franchise-dot-5">
+          <span className="main-franchise-dot main-franchise-dot-5">
             <BsDot className="i" />
           </span>
-          <span class="main-franchise-dot main-franchise-dot-6">
+          <span className="main-franchise-dot main-franchise-dot-6">
             <BsDot className="i" />
           </span>
-          <span class="main-franchise-dot main-franchise-dot-7">
+          <span className="main-franchise-dot main-franchise-dot-7">
             <BsDot className="i" />
           </span>
-          <span class="main-franchise-dot main-franchise-dot-8">
+          <span className="main-franchise-dot main-franchise-dot-8">
             <BsDot className="i" />
           </span>
         </div>
-        <div class="main-franchise-item-wrap">
-          <div class="main-franchise-item main-franchise-item-1">
+        <div className="main-franchise-item-wrap">
+          <div className="main-franchise-item main-franchise-item-1">
             <dl>
               <dt>건대스타시티점</dt>
               <dd>
-                <img src="../images/store01.png" alt="건대스타시티점" />
+                <img src="/react-practice/images/store01.png" alt="건대스타시티점" />
               </dd>
             </dl>
           </div>
 
-          <div class="main-franchise-item main-franchise-item-2">
+          <div className="main-franchise-item main-franchise-item-2">
             <dl>
               <dt>대구이월드점</dt>
               <dd>
-                <img src="../images/store02.jpg" alt="대구이월드점" />
+                <img src="/react-practice/images/store02.jpg" alt="대구이월드점" />
               </dd>
             </dl>
           </div>
 
-          <div class="main-franchise-item main-franchise-item-3">
+          <div className="main-franchise-item main-franchise-item-3">
             <dl>
               <dt>롯데월드매직아일랜드점</dt>
               <dd>
-                <img src="../images/store03.jpg" alt="롯데월드매직아일랜드점" />
+                <img src="/react-practice/images/store03.jpg" alt="롯데월드매직아일랜드점" />
               </dd>
             </dl>
           </div>
 
-          <div class="main-franchise-item main-franchise-item-4">
+          <div className="main-franchise-item main-franchise-item-4">
             <dl>
               <dt>이마트킨텍스점</dt>
               <dd>
-                <img src="../images/store04.png" alt="이마트킨텍스점" />
+                <img src="/react-practice/images/store04.png" alt="이마트킨텍스점" />
               </dd>
             </dl>
           </div>
 
-          <div class="main-franchise-item main-franchise-item-5">
+          <div className="main-franchise-item main-franchise-item-5">
             <dl>
               <dt>여수해양공원점</dt>
               <dd>
-                <img src="../images/store05.jpg" alt="여수해양공원점" />
+                <img src="/react-practice/images/store05.jpg" alt="여수해양공원점" />
               </dd>
             </dl>
           </div>
         </div>
-        <div class="main-franchise-item-wrap-duplic">
-          <div class="main-franchise-item main-franchise-item-1">
+        <div className="main-franchise-item-wrap-duplic">
+          <div className="main-franchise-item main-franchise-item-1">
             <dl>
               <dt>을지트윈타워점</dt>
               <dd>
-                <img src="../images/store06.jpg" alt="을지트윈타워점" />
+                <img src="/react-practice/images/store06.jpg" alt="을지트윈타워점" />
               </dd>
             </dl>
           </div>
 
-          <div class="main-franchise-item main-franchise-item-2">
+          <div className="main-franchise-item main-franchise-item-2">
             <dl>
               <dt>부산센텀점</dt>
               <dd>
-                <img src="../images/store07.png" alt="부산센텀점" />
+                <img src="/react-practice/images/store07.png" alt="부산센텀점" />
               </dd>
             </dl>
           </div>
 
-          <div class="main-franchise-item main-franchise-item-3">
+          <div className="main-franchise-item main-franchise-item-3">
             <dl>
               <dt>광주조선대점</dt>
               <dd>
-                <img src="../images/store08.jpg" alt="광주조선대점" />
+                <img src="/react-practice/images/store08.jpg" alt="광주조선대점" />
               </dd>
             </dl>
           </div>

@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
-import Header from './header/Header';
 import Footer from './footer/Footer';
 import TopButton from 'components/button/TopButton';
+import Header from './header/Header';
 
-const Layout = ({ children }) => {
+const LayOut = ({ children }) => {
   return (
     <>
       <Header />
@@ -17,8 +17,8 @@ const Layout = ({ children }) => {
   );
 };
 
-Layout.propTypes = {
+LayOut.propTypes = {
   children: PropTypes.node,
 };
 
-export default Layout;
+export default LayOut;

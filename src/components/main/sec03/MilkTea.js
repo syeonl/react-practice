@@ -4,7 +4,7 @@ const MilkTea = () => {
   return (
     <>
       <div className="img">
-        <img src="../images/brand_main_recipe_img2.jpg" alt="밀크티 이미지" />
+        <img src="/react-practice/images/brand_main_recipe_img2.jpg" alt="밀크티 이미지" />
       </div>
       <div className="teaInfo">
         <h2 className="tit">밀크티 - Milk Tea</h2>
@@ -19,7 +19,7 @@ const MilkTea = () => {
           href="https://www.gong-cha.co.kr/brand/menu/product.php?c=001003"
         >
           메뉴 보러가기{' '}
-          <img src="../images/btn_arr_red.png" alt="메뉴보러가기" />
+          <img src="/react-practice/images/btn_arr_red.png" alt="메뉴보러가기" />
         </a>
       </div>
     </>

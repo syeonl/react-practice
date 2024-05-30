@@ -9,7 +9,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 const Carousel = ({ id, path, title }) => (
-  <div key={id} className="slideImg">
+  <div className="slideImg">
     <img src={path} alt={title} />
   </div>
 );
@@ -27,7 +27,6 @@ const CarouselContainer = ({ type }) => {
   }, []);
 
   return (
-    // swiper 공통
     <>
       <Swiper
         pagination={{ type: 'fraction' }}
@@ -40,13 +39,13 @@ const CarouselContainer = ({ type }) => {
         loop
       >
         {data.map((item) => (
-          <SwiperSlide>
-            <Carousel
-              id={item.id}
-              key={item.id}
-              path={item.path}
-              title={item.title}
-            />
+          <SwiperSlide key={item.id}>
+          <Carousel
+            id={item.id}
+            key={item.id} 
+            path={item.path}
+            title={item.title}
+          />
           </SwiperSlide>
         ))}
       </Swiper>
@@ -92,7 +91,7 @@ const Swiper = styled(SwiperOriginal)`
       width: 24px;
       height: 24px;
     }
-    .swiper-button-next: after {
+    .swiper-button-next:after {
       content: '';
       font-family: none;
       font-size: unset;

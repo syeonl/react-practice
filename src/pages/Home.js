@@ -1,12 +1,12 @@
 import HomeContainer from 'components/container/HomeContainer';
-import LayOut from '../components/layout/LayOut';
+import Layout from 'components/layout/LayOut';
 
 export default function Home() {
   return (
     <>
-      <LayOut>
+      <Layout>
         <HomeContainer />
-      </LayOut>
+      </Layout>
     </>
   );
 }
