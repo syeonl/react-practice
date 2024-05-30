@@ -2,7 +2,7 @@
   "name": "front",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/syeonl/react-practice.git",
+  "homepage": "https://syeonl.github.io/react-practice",
   "dependencies": {
     "axios": "^1.6.4",
     "classnames": "^2.5.1",
