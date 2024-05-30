@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/syeonl/react-practice.git/static/css/main.e944a711.css",
+    "main.js": "/syeonl/react-practice.git/static/js/main.792baf1f.js",
+    "static/js/496.0c8e422e.chunk.js": "/syeonl/react-practice.git/static/js/496.0c8e422e.chunk.js",
+    "static/media/btn_allmenu.svg": "/syeonl/react-practice.git/static/media/btn_allmenu.db60f7c73d00fe658edd.svg",
+    "index.html": "/syeonl/react-practice.git/index.html",
+    "main.e944a711.css.map": "/syeonl/react-practice.git/static/css/main.e944a711.css.map",
+    "main.792baf1f.js.map": "/syeonl/react-practice.git/static/js/main.792baf1f.js.map",
+    "496.0c8e422e.chunk.js.map": "/syeonl/react-practice.git/static/js/496.0c8e422e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e944a711.css",
+    "static/js/main.792baf1f.js"
+  ]
+}
